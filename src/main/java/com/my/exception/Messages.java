@@ -11,11 +11,11 @@ public class Messages {
 
     public static final String ERR_CANNOT_INCORRECT_PASS = "Cannot find user with such login/password";
 
-    public static final String ERR_CANNOT_PARSE_TIME = "Cannot parse time";
+    public static final String ERR_CANNOT_ADD_CUSTOMER = "Cannot add customer";
 
     public static final String ERR_INCORECT_PASS_OR_LOGIN = "Incorret password/login";
 
-    public static final String ERR_EMPTY_DATE = "Choose Date";
+    public static final String ERR_CANNOT_GET_ALL_CARDS = "Cannot get all cards by this login";
 
     public static final String ERR_PLEASE_LOGIN = "Please login again!";
 
@@ -41,46 +41,6 @@ public class Messages {
 
     public static final String ERR_CANNOT_FIND_USER_BY_LOGIN = "Cannot find a user by its login";
 
-    public static final String ERR_CANNOT_OBTAIN_MENU_ROOMS = "Cannot obtain rooms";
 
-    public static final String ERR_CANNOT_CHECK_ROOM_STATUS = "Cannot check room status";
-
-    public static final String ERR_NUMBER_ROOM_NULL = "Please choose your order";
-
-    public static final String ERR_CANNOT_MAKE_ROLLBACK = "Cannot make rollback";
-
-    public static final String ERR_CANNOT_SORT_ROOM = "Cannot sort rooms";
-
-    public static final String ERR_CANNOT_FIND_ROOM_BY_NUMBER = "Cannot find room by number";
-
-    public static final String ERR_INSERT_REQUSEST = "Cannot insert your Request";
-
-    public static final String ERR_CANNOT_UPDATE_STATUS = "Cannot update status";
-
-    public static final String ERR_CANNOT_UPDATE_ROOM_STATUS = "Cannot update room status";
-
-    public static final String ERR_CANNOT_FIND_USER_ORDER = "Cannot find user order";
-
-    public static final String ERR_CANNOT_UPDATE_ORDER_SUCSESS = "Cannot update order sucsess";
-
-    public static final String ERR_CANNOT_MAKE_SELECTION = "Cannot make selection";
-
-    public static final String ERR_CANNOT_INSER_ORDER = "Cannot insert your order";
-
-    public static final String ERR_CANNOT_UPDATE_OPERATION = "Cannot update operation";
-
-    public static final String ERR_CANNOT_UPDATE_WAIT_STATUS = "Cannot update wait status";
-
-    public static final String ERR_CANNOT_UPDATE_AGREE = "Cannot update agree";
-
-    public static final String ERR_CANNOT_DELETE_ORDER = "Cannot delete order";
-
-    public static final String ERR_CANNOT_UPDATE_PAYED_STATUS = "Cannot update payed status";
-
-    public static final String ERR_CHOOSE_ANOTHER_ROOM = "Please choose another room";
-
-    public static final String ERR_CANNOT_FIND_USER_BY_ID = "Cannot find user by id";
-
-    public static final String ERR_CANNOT_GET_USER_LOGIN = "Cannot get user login and mail";
 
 }

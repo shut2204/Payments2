@@ -21,6 +21,7 @@
         <img src="img/user.png" alt="" class="user">
         <h1>Welcome</h1>
         ${error}
+        ${info}
         <input type="hidden" value="login" name="command">
 
         <input type="text" name="login" placeholder="Your login">

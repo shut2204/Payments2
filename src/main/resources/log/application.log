@@ -1,3 +1,86 @@
 2022-08-16 20-20-57 DEBUG [http-nio-8080-exec-7] Command starts
 2022-08-16 20-20-58 INFO  [http-nio-8080-exec-7] Customer com.my.db.entity.Customer@344ca29b logged as user
 2022-08-16 20-20-58 DEBUG [http-nio-8080-exec-7] Command finished
+2022-08-19 19-43-58 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-19 19-44-09 DEBUG [http-nio-8080-exec-1] Command starts
+2022-08-19 19-44-22 DEBUG [http-nio-8080-exec-2] Command starts
+2022-08-19 19-44-22 INFO  [http-nio-8080-exec-2] Customer com.my.db.entity.Customer@636f97bc logged as user
+2022-08-19 19-44-22 DEBUG [http-nio-8080-exec-2] Command finished
+2022-08-19 19-49-57 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-19 19-49-57 ERROR [http-nio-8080-exec-7] Cannot find a user by its login
+java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8mb4_general_ci,COERCIBLE) for operation '='
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:121)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:121)
+	at com.my.db.CustomerDAO.findUserByLogin(CustomerDAO.java:50)
+	at com.my.web.command.RegistrationCommand.execute(RegistrationCommand.java:42)
+	at com.my.Controller.process(Controller.java:41)
+	at com.my.Controller.doPost(Controller.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-19 19-55-38 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-19 19-55-38 INFO  [http-nio-8080-exec-6] User add successful
+2022-08-19 19-55-38 INFO  [http-nio-8080-exec-6] add customer was successful customer -> com.my.db.entity.Customer@6b90f1b6
+2022-08-19 19-55-56 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-19 19-55-56 INFO  [http-nio-8080-exec-8] Customer com.my.db.entity.Customer@781b792e logged as user
+2022-08-19 19-55-56 DEBUG [http-nio-8080-exec-8] Command finished
+2022-08-19 20-08-12 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-19 21-09-02 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-19 21-09-03 INFO  [http-nio-8080-exec-7] Get cards and set user Cards -> [com.my.db.entity.Card@17430692]
+2022-08-19 21-09-03 INFO  [http-nio-8080-exec-7] Customer com.my.db.entity.Customer@38b6df4 logged as user
+2022-08-19 21-09-03 DEBUG [http-nio-8080-exec-7] Command finished
+2022-08-19 21-09-17 DEBUG [http-nio-8080-exec-1] Command starts
+2022-08-19 21-09-17 INFO  [http-nio-8080-exec-1] Get cards and set user Cards -> [com.my.db.entity.Card@1396fdef, com.my.db.entity.Card@30bfe45e, com.my.db.entity.Card@64270c8c, com.my.db.entity.Card@750d8dc9, com.my.db.entity.Card@51506f02, com.my.db.entity.Card@1e02fc62]
+2022-08-19 21-09-17 INFO  [http-nio-8080-exec-1] Customer com.my.db.entity.Customer@55c89e67 logged as user
+2022-08-19 21-09-17 DEBUG [http-nio-8080-exec-1] Command finished
+2022-08-19 21-15-30 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-19 21-15-31 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@6c04991d, com.my.db.entity.Card@364b305d, com.my.db.entity.Card@48f7983b, com.my.db.entity.Card@1a2a3452, com.my.db.entity.Card@52ae8a7b, com.my.db.entity.Card@3d0891ab]
+2022-08-19 21-15-31 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@45741d17 logged as user
+2022-08-19 21-15-31 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-19 21-21-22 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-19 21-21-22 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@5bd28d20, com.my.db.entity.Card@46ee2257, com.my.db.entity.Card@45a02039, com.my.db.entity.Card@17968e56, com.my.db.entity.Card@5862ba09, com.my.db.entity.Card@6fa9d7c8]
+2022-08-19 21-21-22 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@b5d3f3c logged as user
+2022-08-19 21-21-22 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-19 21-23-29 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-19 21-23-30 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@2ce82be3, com.my.db.entity.Card@78bab026, com.my.db.entity.Card@330817b5, com.my.db.entity.Card@343e47c8, com.my.db.entity.Card@59e4d59f, com.my.db.entity.Card@74f27505]
+2022-08-19 21-23-30 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@1406db3b logged as user
+2022-08-19 21-23-30 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-19 21-23-31 DEBUG [http-nio-8080-exec-6] LogoutCommand starts
+2022-08-19 21-23-31 DEBUG [http-nio-8080-exec-6] LogoutCommand finished
+2022-08-19 21-23-33 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-19 21-23-33 INFO  [http-nio-8080-exec-7] Get cards and set user Cards -> [com.my.db.entity.Card@5af2a427, com.my.db.entity.Card@781b792e, com.my.db.entity.Card@229bd443, com.my.db.entity.Card@29b7a8ae, com.my.db.entity.Card@662be223, com.my.db.entity.Card@455a35c1]
+2022-08-19 21-23-33 INFO  [http-nio-8080-exec-7] Customer com.my.db.entity.Customer@499857e1 logged as user
+2022-08-19 21-23-33 DEBUG [http-nio-8080-exec-7] Command finished
+2022-08-19 21-23-35 DEBUG [http-nio-8080-exec-8] LogoutCommand starts
+2022-08-19 21-23-35 DEBUG [http-nio-8080-exec-8] LogoutCommand finished
+2022-08-19 21-23-36 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-19 21-23-36 INFO  [http-nio-8080-exec-9] Get cards and set user Cards -> [com.my.db.entity.Card@3ad214c8, com.my.db.entity.Card@440b691c, com.my.db.entity.Card@42877c80, com.my.db.entity.Card@159ba0b7, com.my.db.entity.Card@3fc58298, com.my.db.entity.Card@20994ff5]
+2022-08-19 21-23-36 INFO  [http-nio-8080-exec-9] Customer com.my.db.entity.Customer@75b45ff8 logged as user
+2022-08-19 21-23-36 DEBUG [http-nio-8080-exec-9] Command finished
+2022-08-19 21-23-39 DEBUG [http-nio-8080-exec-10] LogoutCommand starts
+2022-08-19 21-23-39 DEBUG [http-nio-8080-exec-10] LogoutCommand finished

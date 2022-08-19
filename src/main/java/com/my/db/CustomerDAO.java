@@ -53,7 +53,7 @@ public class CustomerDAO {
             }
         } catch (SQLException ex) {
             LOG.error(Messages.ERR_CANNOT_FIND_USER_BY_LOGIN, ex);
-            throw new DBException(Messages.ERR_CANNOT_FIND_USER_BY_LOGIN, ex);
+            ex.printStackTrace();
         } finally {
             DBManager.getInstance().close(con, pstmt, rs);
         }
@@ -70,5 +70,34 @@ public class CustomerDAO {
         user.setLast_name(rs.getString("last_name"));
         user.setRole(rs.getString("role"));
         return user;
+    }
+
+    public boolean addCustomer(Customer customer) throws DBException {
+        PreparedStatement pstmt = null;
+        ResultSet rs = null;
+        Connection con = null;
+        int i = 0;
+
+        try {
+            con = DBManager.getInstance().getConnection();
+            pstmt = con.prepareStatement("INSERT INTO Customers(phone_number, " +
+                    "first_name, last_name, login," +
+                    " password_customer, role) VALUES (?,?,?,?,?,?)");
+            pstmt.setString(1, customer.getPhone_number());
+            pstmt.setString(2, customer.getFirst_name());
+            pstmt.setString(3, customer.getLast_name());
+            pstmt.setString(4, customer.getLogin());
+            pstmt.setString(5, customer.getPassword_customer());
+            pstmt.setString(6, customer.getRole());
+
+            i = pstmt.executeUpdate();
+        } catch (SQLException ex) {
+            LOG.error(Messages.ERR_CANNOT_CREATE_USER, ex);
+            throw new DBException(Messages.ERR_CANNOT_CREATE_USER, ex);
+        } finally {
+            DBManager.getInstance().close(con, pstmt, rs);
+        }
+
+        return i > 0;
     }
 }

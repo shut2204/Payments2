@@ -1,7 +1,9 @@
 package com.my.web.command;
 
 import com.my.PATH;
+import com.my.db.CardDAO;
 import com.my.db.CustomerDAO;
+import com.my.db.entity.Card;
 import com.my.db.entity.Customer;
 import com.my.exception.AppException;
 import com.my.exception.DBException;
@@ -10,6 +12,7 @@ import org.apache.log4j.Logger;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 public class LoginCommand extends Command{
 
@@ -65,6 +68,11 @@ public class LoginCommand extends Command{
         LOG.trace("Set the session attribute: customer --> " + customer);
         session.setAttribute("login", login);
         LOG.trace("Set the session attribute: login --> " + login);
+        CardDAO cardDAO = new CardDAO();
+
+        List<Card> cards = cardDAO.getAllByLogin(login);
+        session.setAttribute("cards", cards);
+        LOG.info("Get cards and set user Cards -> " + cards);
 
         LOG.info("Customer " + customer + " logged as " + customer.getRole().toLowerCase());
 

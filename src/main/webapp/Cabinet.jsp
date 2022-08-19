@@ -31,7 +31,7 @@
         <li><a href="index.jsp">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
-        <li><a class="active" href="#">Logout</a></li>
+        <li><a class="active" href="controller?command=logout">Logout</a></li>
     </ul>
 </nav>
 
