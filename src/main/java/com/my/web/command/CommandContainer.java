@@ -17,6 +17,7 @@ public class CommandContainer {
         commands.put("noCommand" , new noCommand());
         commands.put("registration" , new RegistrationCommand());
         commands.put("logout" , new LogoutCommand());
+        commands.put("addNewCard", new AddCardCommand());
     }
 
     public static Command get(String commandName) {

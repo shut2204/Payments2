@@ -114,4 +114,15 @@ public class DBManager {
         close(stmt);
         close(con);
     }
+
+    public void rollback(Connection con) {
+        if (con != null) {
+            try {
+                con.rollback();
+            } catch (SQLException e) {
+                LOG.error(Messages.ERR_CANNOT_MAKE_ROLLBACK, e);
+
+            }
+        }
+    }
 }

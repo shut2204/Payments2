@@ -37,7 +37,7 @@
 
 <section>
     <span class="large">Your Cards:</span>
-
+    <p>${error}</p>
     <div class="parent">
         <c:if test="${sessionScope.get('cards') != null }">
             <c:forEach var="card" items="${sessionScope.get('cards')}">
@@ -62,6 +62,7 @@
                 <div class="popup-content">
                     <span class="close">&times;</span>
                     <form class="form" action="controller" method="post">
+                        <input type="hidden" name="command" value="addNewCard">
                         <p class="par" >Choose type</p>
                         <select class="sel" name="type" required="required">
                             <option value="">Choose...</option>

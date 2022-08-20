@@ -34,8 +34,7 @@ public class CardDAO {
 
         try {
             con = DBManager.getInstance().getConnection();
-            pstmt = con
-                    .prepareStatement("SELECT * FROM Cards INNER JOIN Customers ON Cards.idcustomer = Customers.idcustomer WHERE login = ?;");
+            pstmt = con.prepareStatement("SELECT * FROM Cards INNER JOIN Customers ON Cards.idcustomer = Customers.idcustomer WHERE login = ?;");
 
             pstmt.setString(1, login);
             rs = pstmt.executeQuery();
@@ -50,11 +49,41 @@ public class CardDAO {
 
                 cards.add(card);
             }
+            con.commit();
         } catch (SQLException e) {
+            DBManager.getInstance().rollback(con);
             LOG.error(Messages.ERR_CANNOT_GET_ALL_CARDS, e);
             e.printStackTrace();
         }
 
         return cards;
+    }
+
+    public boolean add(Card card) throws DBException {
+        boolean flag = false;
+
+        PreparedStatement pstmt = null;
+        Connection con = null;
+
+        try {
+            con = DBManager.getInstance().getConnection();
+            pstmt = con.prepareStatement("INSERT INTO DBforProject.Cards " +
+                    "(idcustomer, balance, name_card)" +
+                    " VALUES (?, 0, ?)");
+            pstmt.setString(1, String.valueOf(card.getIdcustomer()));
+            pstmt.setString(2, card.getName_card());
+
+            pstmt.executeUpdate();
+            con.commit();
+            flag = true;
+        } catch (SQLException ex) {
+            DBManager.getInstance().rollback(con);
+            LOG.error(Messages.ERR_CANNOT_ADD_CARD, ex);
+            throw new DBException(Messages.ERR_CANNOT_ADD_CARD, ex);
+        } finally {
+            DBManager.getInstance().close(con, pstmt, null);
+        }
+
+        return flag;
     }
 }

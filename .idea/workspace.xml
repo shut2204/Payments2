@@ -9,21 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23b5f42f-c9ae-4c89-9de8-30e3f36cfe55" name="Changes" comment="add logger, and create my exception">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/web/command/LogoutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/web/command/RegistrationCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.jsp" afterDir="false" />
+    <list default="true" id="23b5f42f-c9ae-4c89-9de8-30e3f36cfe55" name="Changes" comment="add registration function and get all cards on Cabinet.jsp">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/web/command/AddCardCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/PATH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/PATH.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/my/db/CardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/db/CardDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/my/db/CustomerDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/db/CustomerDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/db/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/db/DBManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/my/exception/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/exception/Messages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/my/web/command/CommandContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/web/command/CommandContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/web/command/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/web/command/LoginCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/application.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Cabinet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Cabinet.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +159,8 @@
       <workItem from="1660628627591" duration="12310000" />
       <workItem from="1660715930603" duration="1711000" />
       <workItem from="1660723127729" duration="1017000" />
-      <workItem from="1660925092062" duration="7409000" />
+      <workItem from="1660925092062" duration="7552000" />
+      <workItem from="1661013604234" duration="6610000" />
     </task>
     <task id="LOCAL-00001" summary="new start">
       <created>1660456863478</created>
@@ -200,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660670632335</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add registration function and get all cards on Cabinet.jsp">
+      <created>1660933523135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1660933523135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +226,7 @@
     <MESSAGE value="db" />
     <MESSAGE value="login in cabinet" />
     <MESSAGE value="add logger, and create my exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="add logger, and create my exception" />
+    <MESSAGE value="add registration function and get all cards on Cabinet.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="add registration function and get all cards on Cabinet.jsp" />
   </component>
 </project>

@@ -84,3 +84,192 @@ java.sql.SQLException: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) an
 2022-08-19 21-23-36 DEBUG [http-nio-8080-exec-9] Command finished
 2022-08-19 21-23-39 DEBUG [http-nio-8080-exec-10] LogoutCommand starts
 2022-08-19 21-23-39 DEBUG [http-nio-8080-exec-10] LogoutCommand finished
+2022-08-20 19-42-55 DEBUG [http-nio-8080-exec-10] Command starts
+2022-08-20 19-42-56 INFO  [http-nio-8080-exec-10] Get cards and set user Cards -> [com.my.db.entity.Card@3366198b, com.my.db.entity.Card@1768a692, com.my.db.entity.Card@28f1d3d2, com.my.db.entity.Card@2187c81b, com.my.db.entity.Card@22ae37e1, com.my.db.entity.Card@70a05910]
+2022-08-20 19-42-56 INFO  [http-nio-8080-exec-10] Customer com.my.db.entity.Customer@6f90c453 logged as user
+2022-08-20 19-42-56 DEBUG [http-nio-8080-exec-10] Command finished
+2022-08-20 20-55-00 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 20-55-01 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@8517148, com.my.db.entity.Card@6010907d, com.my.db.entity.Card@e97aad7, com.my.db.entity.Card@4d1a0013, com.my.db.entity.Card@4ec2f3c9, com.my.db.entity.Card@2ab50114]
+2022-08-20 20-55-01 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@718f50a logged as user
+2022-08-20 20-55-01 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 20-55-06 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 20-55-24 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 20-57-32 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 20-57-32 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@5f6097b0, com.my.db.entity.Card@4a8466f2, com.my.db.entity.Card@671dead8, com.my.db.entity.Card@dcb5ea3, com.my.db.entity.Card@564d85bd, com.my.db.entity.Card@3f97da70]
+2022-08-20 20-57-32 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@15286057 logged as user
+2022-08-20 20-57-32 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 20-57-38 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 20-57-38 ERROR [http-nio-8080-exec-7] Not found userId with by this login
+2022-08-20 20-58-20 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 20-58-21 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@4ec2f3c9, com.my.db.entity.Card@2ab50114, com.my.db.entity.Card@19c7d787, com.my.db.entity.Card@4c04634, com.my.db.entity.Card@5d45b1de, com.my.db.entity.Card@5f7aa6c3]
+2022-08-20 20-58-21 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@8517148 logged as user
+2022-08-20 20-58-21 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 20-58-25 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 20-59-48 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 20-59-48 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@4ec2f3c9, com.my.db.entity.Card@2ab50114, com.my.db.entity.Card@19c7d787, com.my.db.entity.Card@4c04634, com.my.db.entity.Card@5d45b1de, com.my.db.entity.Card@5f7aa6c3]
+2022-08-20 20-59-48 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@8517148 logged as user
+2022-08-20 20-59-48 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 20-59-53 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 20-59-58 DEBUG [http-nio-8080-exec-8] LogoutCommand starts
+2022-08-20 20-59-58 DEBUG [http-nio-8080-exec-8] LogoutCommand finished
+2022-08-20 21-00-00 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-20 21-00-00 INFO  [http-nio-8080-exec-9] Get cards and set user Cards -> [com.my.db.entity.Card@48427bcb, com.my.db.entity.Card@d40eca7, com.my.db.entity.Card@1fed0a7c, com.my.db.entity.Card@3c87461b, com.my.db.entity.Card@67c0fe63, com.my.db.entity.Card@6d6f13e8, com.my.db.entity.Card@1aa64ad3]
+2022-08-20 21-00-00 INFO  [http-nio-8080-exec-9] Customer com.my.db.entity.Customer@4c7de69c logged as user
+2022-08-20 21-00-00 DEBUG [http-nio-8080-exec-9] Command finished
+2022-08-20 21-01-26 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 21-01-26 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@7d670057, com.my.db.entity.Card@f406b10, com.my.db.entity.Card@5636444b, com.my.db.entity.Card@2eb0398f, com.my.db.entity.Card@6b90f1b6, com.my.db.entity.Card@67841f3f, com.my.db.entity.Card@3f40b98]
+2022-08-20 21-01-26 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@36f43ecc logged as user
+2022-08-20 21-01-26 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 21-01-31 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-01-39 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 21-01-43 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 21-03-12 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-03-12 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@5f6097b0, com.my.db.entity.Card@4a8466f2, com.my.db.entity.Card@671dead8, com.my.db.entity.Card@dcb5ea3, com.my.db.entity.Card@564d85bd, com.my.db.entity.Card@3f97da70, com.my.db.entity.Card@3754ac70, com.my.db.entity.Card@60bdd27f, com.my.db.entity.Card@5a67c3b8, com.my.db.entity.Card@5b22d6de]
+2022-08-20 21-03-12 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@15286057 logged as user
+2022-08-20 21-03-12 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 21-04-34 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 21-04-35 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@759b201, com.my.db.entity.Card@23e313f8, com.my.db.entity.Card@6293b626, com.my.db.entity.Card@4a5e4bec, com.my.db.entity.Card@5d211c, com.my.db.entity.Card@3b9a8e3c, com.my.db.entity.Card@44473def, com.my.db.entity.Card@7c7e1fa0, com.my.db.entity.Card@15c284f2, com.my.db.entity.Card@7a461318]
+2022-08-20 21-04-35 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@4d89b2bf logged as user
+2022-08-20 21-04-35 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 21-05-07 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-05-07 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@78bab026, com.my.db.entity.Card@330817b5, com.my.db.entity.Card@343e47c8, com.my.db.entity.Card@59e4d59f, com.my.db.entity.Card@74f27505, com.my.db.entity.Card@7346191, com.my.db.entity.Card@417276b8, com.my.db.entity.Card@3ec50b24, com.my.db.entity.Card@59f80ba4, com.my.db.entity.Card@7de4d1e3]
+2022-08-20 21-05-07 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@74441840 logged as user
+2022-08-20 21-05-07 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 21-05-11 DEBUG [http-nio-8080-exec-7] LogoutCommand starts
+2022-08-20 21-05-11 DEBUG [http-nio-8080-exec-7] LogoutCommand finished
+2022-08-20 21-05-15 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 21-05-15 INFO  [http-nio-8080-exec-8] Get cards and set user Cards -> [com.my.db.entity.Card@5af2a427]
+2022-08-20 21-05-15 INFO  [http-nio-8080-exec-8] Customer com.my.db.entity.Customer@499857e1 logged as user
+2022-08-20 21-05-15 DEBUG [http-nio-8080-exec-8] Command finished
+2022-08-20 21-05-19 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-20 21-05-59 DEBUG [http-nio-8080-exec-2] Command starts
+2022-08-20 21-08-42 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-08-42 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@78bab026, com.my.db.entity.Card@330817b5, com.my.db.entity.Card@343e47c8]
+2022-08-20 21-08-42 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@74441840 logged as user
+2022-08-20 21-08-42 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 21-08-46 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 21-08-49 DEBUG [http-nio-8080-exec-8] LogoutCommand starts
+2022-08-20 21-08-49 DEBUG [http-nio-8080-exec-8] LogoutCommand finished
+2022-08-20 21-22-15 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-22-15 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@46ee2257, com.my.db.entity.Card@45a02039, com.my.db.entity.Card@17968e56, com.my.db.entity.Card@5862ba09]
+2022-08-20 21-22-15 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@5309d518 logged as user
+2022-08-20 21-22-15 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 21-22-20 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 21-22-25 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 21-57-37 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 21-57-55 DEBUG [http-nio-8080-exec-10] Command starts
+2022-08-20 21-57-59 DEBUG [http-nio-8080-exec-2] Command starts
+2022-08-20 21-57-59 INFO  [http-nio-8080-exec-2] Get cards and set user Cards -> [com.my.db.entity.Card@6dbcc0bc, com.my.db.entity.Card@32ebe123, com.my.db.entity.Card@3c85a602, com.my.db.entity.Card@4f52eb87]
+2022-08-20 21-57-59 INFO  [http-nio-8080-exec-2] Customer com.my.db.entity.Customer@1d975376 logged as user
+2022-08-20 21-57-59 DEBUG [http-nio-8080-exec-2] Command finished
+2022-08-20 21-58-04 DEBUG [http-nio-8080-exec-3] Command starts
+2022-08-20 21-58-08 DEBUG [http-nio-8080-exec-4] Command starts
+2022-08-20 21-58-10 DEBUG [http-nio-8080-exec-5] LogoutCommand starts
+2022-08-20 21-58-10 DEBUG [http-nio-8080-exec-5] LogoutCommand finished
+2022-08-20 21-58-11 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 21-58-11 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@1e556898, com.my.db.entity.Card@2494e05b, com.my.db.entity.Card@561b3e3, com.my.db.entity.Card@15b5dd96]
+2022-08-20 21-58-11 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@dd3b2f3 logged as user
+2022-08-20 21-58-11 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 22-00-40 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 22-00-41 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@78bab026, com.my.db.entity.Card@330817b5, com.my.db.entity.Card@343e47c8, com.my.db.entity.Card@59e4d59f]
+2022-08-20 22-00-41 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@74441840 logged as user
+2022-08-20 22-00-41 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 22-00-47 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 22-00-51 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 22-00-54 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 22-01-52 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 22-01-52 ERROR [http-nio-8080-exec-6] Cannot create rollback
+java.sql.SQLNonTransientConnectionException: Can't call rollback when autocommit=true
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:1820)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingConnection.rollback(DelegatingConnection.java:798)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingConnection.rollback(DelegatingConnection.java:798)
+	at com.my.db.DBManager.rollback(DBManager.java:121)
+	at com.my.db.CustomerDAO.findUserByLogin(CustomerDAO.java:56)
+	at com.my.web.command.LoginCommand.execute(LoginCommand.java:55)
+	at com.my.Controller.process(Controller.java:41)
+	at com.my.Controller.doPost(Controller.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-20 22-01-52 ERROR [http-nio-8080-exec-6] Cannot find a user by its login
+java.sql.SQLException: Can't call commit when autocommit=true
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:67)
+	at com.mysql.cj.jdbc.ConnectionImpl.commit(ConnectionImpl.java:786)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingConnection.commit(DelegatingConnection.java:192)
+	at org.apache.tomcat.dbcp.dbcp2.DelegatingConnection.commit(DelegatingConnection.java:192)
+	at com.my.db.CustomerDAO.findUserByLogin(CustomerDAO.java:54)
+	at com.my.web.command.LoginCommand.execute(LoginCommand.java:55)
+	at com.my.Controller.process(Controller.java:41)
+	at com.my.Controller.doPost(Controller.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-08-20 22-01-52 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@43b93af5, com.my.db.entity.Card@7ba878fe, com.my.db.entity.Card@7101b5d4, com.my.db.entity.Card@711d0936]
+2022-08-20 22-01-52 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@58682460 logged as user
+2022-08-20 22-01-52 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 22-10-30 DEBUG [http-nio-8080-exec-5] Command starts
+2022-08-20 22-10-30 INFO  [http-nio-8080-exec-5] Get cards and set user Cards -> [com.my.db.entity.Card@3115009e, com.my.db.entity.Card@115dea30, com.my.db.entity.Card@60545ba5, com.my.db.entity.Card@101b6444]
+2022-08-20 22-10-30 INFO  [http-nio-8080-exec-5] Customer com.my.db.entity.Customer@1d17a7d5 logged as user
+2022-08-20 22-10-30 DEBUG [http-nio-8080-exec-5] Command finished
+2022-08-20 22-10-39 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 22-10-43 DEBUG [http-nio-8080-exec-7] Command starts
+2022-08-20 22-10-51 DEBUG [http-nio-8080-exec-9] Command starts
+2022-08-20 22-10-55 DEBUG [http-nio-8080-exec-10] LogoutCommand starts
+2022-08-20 22-10-55 DEBUG [http-nio-8080-exec-10] LogoutCommand finished
+2022-08-20 22-11-03 DEBUG [http-nio-8080-exec-2] Command starts
+2022-08-20 22-11-10 DEBUG [http-nio-8080-exec-3] Command starts
+2022-08-20 22-11-10 INFO  [http-nio-8080-exec-3] User add successful
+2022-08-20 22-11-10 INFO  [http-nio-8080-exec-3] add customer was successful customer -> com.my.db.entity.Customer@318b8734
+2022-08-20 22-11-26 DEBUG [http-nio-8080-exec-6] Command starts
+2022-08-20 22-11-26 INFO  [http-nio-8080-exec-6] Get cards and set user Cards -> [com.my.db.entity.Card@24a532ff]
+2022-08-20 22-11-26 INFO  [http-nio-8080-exec-6] Customer com.my.db.entity.Customer@1569dce8 logged as user
+2022-08-20 22-11-26 DEBUG [http-nio-8080-exec-6] Command finished
+2022-08-20 22-11-38 DEBUG [http-nio-8080-exec-8] Command starts
+2022-08-20 22-11-49 DEBUG [http-nio-8080-exec-9] LogoutCommand starts
+2022-08-20 22-11-49 DEBUG [http-nio-8080-exec-9] LogoutCommand finished

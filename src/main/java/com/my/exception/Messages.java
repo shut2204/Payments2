@@ -2,6 +2,9 @@ package com.my.exception;
 
 public class Messages {
 
+    public static final String ERR_CANNOT_ADD_CARD = "Cannot add card";
+    public static final String ERR_CANNOT_MAKE_ROLLBACK = "Cannot create rollback";
+
     private Messages(){
         //no op
     }
